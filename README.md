@@ -1,3 +1,3 @@
-> Project1
-> version = v.0.1
+> Project1 \n
+> version = v.1.0 \n
 > Created by Vlad Matveev

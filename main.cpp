@@ -172,7 +172,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 			hWnd, 0, hInst, NULL);
 		ShowWindow(hBtn, SW_SHOWNORMAL);
 
-		const HINSTANCE hInstance = (HINSTANCE)GetWindowLong(hWnd, GWL_HINSTANCE);
+		const HINSTANCE hInstance = (HINSTANCE)GetWindowLong(hWnd, GWLP_HINSTANCE);
 
 		images[0] = loadImage(TEXT("gun.bmp"), hInstance);
 		images[1] = loadImage(TEXT("ball.bmp"), hInstance);
