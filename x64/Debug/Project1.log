@@ -1,1 +1,5 @@
-﻿  Project1.vcxproj -> E:\Programming\С++\Project1\x64\Debug\Project1.exe
+﻿  main.cpp
+C:\Users\User\Desktop\Project1\main.cpp(175,77): warning C4312:  приведение типов: преобразование из "LONG" в "HINSTANCE" большего размера
+C:\Users\User\Desktop\Project1\main.cpp(204,55): warning C4267:  аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\User\Desktop\Project1\main.cpp(251,14): warning C4244:  =: преобразование "double" в "int", возможна потеря данных
+  Project1.vcxproj -> C:\Users\User\Desktop\Project1\x64\Debug\Project1.exe
